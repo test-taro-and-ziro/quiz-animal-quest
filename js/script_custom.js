@@ -461,7 +461,10 @@ function custom08(q) {
 // ==========================================
 const QUESTION_URL = {
     "【triangle_sum】": { q: '<img src="images/quiz/q_triangle_sum.jpg" class="quiz-image">'},
-	"【diagonal_angle】": { q: '<img src="images/quiz/q_diagonal.jpg" class="quiz-image">'}
+	"【diagonal_angle】": { q: '<img src="images/quiz/q_diagonal.jpg" class="quiz-image">'},
+	"【clock_3】": { q: '<img src="images/quiz/clock_3.jpg" class="quiz-image">'},
+	"【clock_7_han】": { q: '<img src="images/quiz/clock_7_han.jpg" class="quiz-image">'},
+	"【clock_10】": { q: '<img src="images/quiz/clock_10.jpg" class="quiz-image">'}
 };
 // ==========================================
 // ★ 問題文イメージ変換
