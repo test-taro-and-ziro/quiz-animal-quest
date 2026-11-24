@@ -34,9 +34,9 @@ targetArray.push(...[
 
 targetArray.push(...[
 // 　なんじ なんじはん（時計）：短い針と長い針を使った時刻の読み取り
-{ grade: 1, genre: "math", type: "select", text: "【clock_3】<br>とけいは なんじかな？", choices: ["2じ", "3じ", "4じ", "5じ"], answer: "3じ", explanation: "ながい はりが 12、みじかい はりが 3 を さしているよ。だから <b>3じ</b> だね！" },
-{ grade: 1, genre: "math", type: "select", text: "【clock_7_han】<br>とけいは なんじかな？", choices: ["6じ はん", "7じ", "7じ はん", "8じ はん"], answer: "7じ はん", explanation: "ながい はりが 6 を さすと <b>はん</b> だよ。みじかい はりが 7 と 8 の あいだに あるので <b>7じ はん</b> だね！" },
-{ grade: 1, genre: "math", type: "select", text: "【clock_10】<br>とけいは なんじかな？", choices: ["8じ", "9じ", "10じ", "11じ"], answer: "10じ", explanation: "ながい はりが 12、みじかい はりが 10 を さしているので <b>10じ</b> だよ！" },
+{ grade: 1, genre: "math", type: "select", text: "とけいは なんじかな？【clock_3】", choices: ["2じ", "3じ", "4じ", "5じ"], answer: "3じ", explanation: "ながい はりが 12、みじかい はりが 3 を さしているよ。だから <b>3じ</b> だね！" },
+{ grade: 1, genre: "math", type: "select", text: "とけいは なんじかな？【clock_7_han】", choices: ["6じ はん", "7じ", "7じ はん", "8じ はん"], answer: "7じ はん", explanation: "ながい はりが 6 を さすと <b>はん</b> だよ。みじかい はりが 7 と 8 の あいだに あるので <b>7じ はん</b> だね！" },
+{ grade: 1, genre: "math", type: "select", text: "とけいは なんじかな？【clock_10】", choices: ["8じ", "9じ", "10じ", "11じ"], answer: "10じ", explanation: "ながい はりが 12、みじかい はりが 10 を さしているので <b>10じ</b> だよ！" },
 ]);
 
 }
