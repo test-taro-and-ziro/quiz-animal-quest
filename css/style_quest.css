@@ -522,13 +522,27 @@ html, body {
 .btn-brain { background-color: #FFA726; } /* ひらめき（電球をイメージしたオレンジ・ゴールド系） */
 .btn-genre-default { background: #6b7280; } /* 上記以外：グレー */
 .btn-boss {
-    background-color: #8B0000;
+    /* 中心から外側へ暗くなる深紅のグラデーション */
+    background: radial-gradient(circle, #B22222 0%, #5A0000 100%);
     color: #fff;
     font-weight: bold;
-    border: 3px solid gold;
-    padding: 12px 20px;
+    border: 3px solid #FFD700; /* gold */
+    padding: 12px 24px;
     border-radius: 10px;
     font-size: 18px;
+    letter-spacing: 0.08em; /* 文字間隔を少し広げて威厳を出す */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* 文字をくっきりさせる影 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5), inset 0 0 8px rgba(255, 215, 0, 0.3);
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+/* マウスを乗せたとき（ホバー）の演出 */
+.btn-boss:hover {
+    transform: translateY(-2px) scale(1.03); /* 少し大きく浮き上がる */
+    box-shadow: 0 6px 18px rgba(255, 215, 0, 0.6); /* 金色に光るオーラ */
+    filter: brightness(1.1);
+}
+/* クリックした瞬間の押し込み */
+.btn-boss:active {
+    transform: translateY(1px) scale(0.99);
 }
