@@ -43,7 +43,23 @@ targetArray.push(...[
 { grade: 1, genre: "math", type: "select", text: "木が ならんでいます。<br>🌳 🌳 🌳 🌳 🌳 🌳<br>ひだりから 5ばんめの 木は なんばんめかな？", choices: ["3ばんめ", "4ばんめ", "5ばんめ", "6ばんめ"], answer: "5ばんめ", explanation: "ひだりから かぞえると <b>5ばんめ</b> の 木だよ！" },
 { grade: 1, genre: "math", type: "which", text: "パンが ならんでいます。<br>🥐 🍞 🥖 🥯<br>みぎから 1ばんめは 🥯 である。まるか ばつか？", choices: [true, false], answer: true, explanation: "みぎはしに あるのは <b>🥯</b> だよ。だから まる！" },
 { grade: 1, genre: "math", type: "select", text: "花が ならんでいます。<br>🌷 🌹 🌻 🌼 🌺<br>ひだりから 2ばんめの 花は どれかな？", choices: ["🌷", "🌹", "🌻", "🌺"], answer: "🌹", explanation: "ひだりから かぞえると、1ばんめは 🌷、2ばんめは <b>🌹</b> だよ！" },
-	
-	]);
+]);
+
+targetArray.push(...[
+// 都道府県（漢字）
+{ grade: 3, genre: "kanji", type: "select", text: "「ほっかいどう」を 漢字（かんじ）で 書くと どれかな？", choices: ["北海道", "北海島", "北会道", "北海道県"], answer: "北海道", explanation: "北海道の 県庁所在地（けんちょうしょざいち）は <b>札幌市（さっぽろし）</b> だよ。" },
+{ grade: 3, genre: "kanji", type: "select", text: "東北地方（とうほくちほう）に ある「岩」が つく 都道府県（とどうふけん）は どれかな？", choices: ["岩手県", "山形県", "秋田県", "福島県"], answer: "岩手県", explanation: "岩手県（いわてけん）には <b>中尊寺（ちゅうそんじ）</b> という 有名（ゆうめい）な お寺が あるよ。" },
+{ grade: 3, genre: "kanji", type: "select", text: "東北地方（とうほくちほう）に ある「あきたけん」を 漢字（かんじ）で 書くと どれかな？", choices: ["秋田県", "秋畑県", "秋田見", "秋多県"], answer: "秋田県", explanation: "秋田県（あきたけん）は <b>秋田犬（あきたいぬ）</b> で 有名だよ。" },
+{ grade: 3, genre: "kanji", type: "select", text: "東北地方（とうほくちほう）に ある「山」が つく 都道府県（とどうふけん）は どれかな？", choices: ["山形県", "福島県", "宮城県", "秋田県"], answer: "山形県", explanation: "山形県（やまがたけん）は <b>さくらんぼ</b> の 生産が さかんだよ。" },
+{ grade: 4, genre: "kanji", type: "select", text: "関東地方（かんとうちほう）に ある「ぐんまけん」を 漢字で 書くと どれかな？", choices: ["群馬県", "郡馬県", "群馬見", "軍馬県"], answer: "群馬県", explanation: "群馬県（ぐんまけん）には <b>草津温泉（くさつおんせん）</b> が あるよ。" },
+{ grade: 4, genre: "kanji", type: "select", text: "関東地方（かんとうちほう）に ある「さいたまけん」を 漢字で 書くと どれかな？", choices: ["埼玉県", "崎玉県", "埼玉見", "崎玉見"], answer: "埼玉県", explanation: "埼玉県（さいたまけん）の 県庁所在地は <b>さいたま市</b> だよ。" },
+{ grade: 3, genre: "kanji", type: "select", text: "関東地方（かんとうちほう）に ある「とうきょうと」を 漢字（かんじ）で 書くと どれかな？", choices: ["東京都", "東京都県", "京東都", "東京府"], answer: "東京都", explanation: "東京都（とうきょうと）は 日本の <b>首都（しゅと）</b> だよ。" },
+// 都道府県（地方）
+{ grade: 3, genre: "social", type: "select", text: "東北地方（とうほくちほう）に ある 県は どれかな？", choices: ["青森県", "東京都", "千葉県", "大阪府"], answer: "青森県", explanation: "青森県（あおもりけん）は <b>りんご</b> の 生産（せいさん）が さかんな 県だよ。" },
+{ grade: 3, genre: "social", type: "select", text: "東北地方（とうほくちほう）に ある 県は どれかな？", choices: ["宮城県", "神奈川県", "京都府", "福岡県"], answer: "宮城県", explanation: "宮城県（みやぎけん）の 県庁所在地は <b>仙台市（せんだいし）</b> だよ。" },
+{ grade: 3, genre: "social", type: "select", text: "東北地方（とうほくちほう）に ある 県は どれかな？", choices: ["福島県", "愛知県", "広島県", "奈良県"], answer: "福島県", explanation: "福島県（ふくしまけん）は <b>桃（もも）</b> の 生産が さかんな 県だよ。" },
+{ grade: 3, genre: "social", type: "select", text: "関東地方（かんとうちほう）に ある 県は どれかな？", choices: ["千葉県", "静岡県", "岡山県", "愛媛県"], answer: "千葉県", explanation: "千葉県（ちばけん）には <b>東京ディズニーリゾート</b> が あるよ。" },
+{ grade: 3, genre: "social", type: "select", text: "関東地方（かんとうちほう）に ある 県は どれかな？", choices: ["神奈川県", "北海道", "大阪府", "福岡県"], answer: "神奈川県", explanation: "神奈川県（かながわけん）には <b>横浜中華街（よこはまちゅうかがい）</b> が あるよ。" },
+]);
 
 }
