@@ -289,6 +289,7 @@ function selectQuest(dungeon) {
         social: { label: '🗺️ 社会（しゃかい）', className: 'btn-social' },
         life: { label: '🤝 生活（せいかつ）', className: 'btn-life' },
         art: { label: '🎨 芸術（アート）', className: 'btn-art' },
+        kanji: { label: '✍️ 漢字（かんじ）', className: 'btn-kanji' },
         brain: { label: '💡 ひらめき', className: 'btn-brain' }
     };
 
