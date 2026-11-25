@@ -336,15 +336,15 @@ function custom06(q) {
     // 正解計算
     let answer = 0;
     answer = v1 * v2;
-    newText = newText.replace("【値1】", v1);
-    newText = newText.replace("【値2】", v2);
+    newText = newText.replaceAll("【値1】", v1);
+    newText = newText.replaceAll("【値2】", v2);
 
     // 選択肢生成
     const choices = generateChoices(answer, Amin);
     // 解説置換
-    let newExplanation = q.explanation.replace("【答】", answer);
-    newExplanation = newExplanation.replace("【値1】", v1);
-    newExplanation = newExplanation.replace("【値2】", v2);
+    let newExplanation = q.explanation.replaceAll("【答】", answer);
+    newExplanation = newExplanation.replaceAll("【値1】", v1);
+    newExplanation = newExplanation.replaceAll("【値2】", v2);
 
     return {
         ...q,
