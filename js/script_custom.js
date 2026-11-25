@@ -490,10 +490,23 @@ function rubyConversion(q) {
 
 	let newText = q.text ?? "";
 	let newExplanation = q.explanation ?? "";
-	
-	return {
+
+    // 特殊ケースは先に変換
+    // newText = newText.replaceAll(
+    //     "逆の関係（ぎゃく の かんけい）", "<ruby>逆<rt>ぎゃく</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>"
+    // );
+
+    return {
         ...q,
-        text: newText,
-        explanation: newExplanation
+        text: replaceRuby(newText),
+        explanation: replaceRuby(newExplanation)
     };
+}
+function replaceRuby(text) {
+    return text.replace(
+        /([一-龯々][一-龯々ぁ-んァ-ヶー]*)（([^）]+)）/g,
+        (match, word, yomi) => {
+            return `<ruby>${word}<rp>（</rp><rt>${yomi.split('：')[0]}</rt><rp>）</rp></ruby>`;
+        }
+    );
 }
