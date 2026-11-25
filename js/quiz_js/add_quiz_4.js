@@ -6,7 +6,7 @@ export function loadQuestions4(targetArray) {
 
 // 🟥 【こくご：japanese】
 targetArray.push(...[
-	{ grade: 4, genre: "japanese", type: "select", text: "「失敗（しっぱい）しても 〇〇 諦めない（あきらめない）。」 〇〇に 入る 一番 適切な（てきせつな） 言葉（ことば）は どれかな？", choices: ["決して", "たぶん", "まるで", "ぜひ"], answer: "決して", explanation: "後ろ（うしろ）に「〜ない」という 否定（ひてい）の 言葉を つなぐ <b>「決して（けっして）」</b> が 正しいよ！" },
+	{ grade: 4, genre: "japanese", type: "select", text: "「失敗（しっぱい）しても 〇〇 諦めない（あきらめない）。」 〇〇に 入る 一番 適切（てきせつ）な 言葉（ことば）は どれかな？", choices: ["決して", "たぶん", "まるで", "ぜひ"], answer: "決して", explanation: "後ろ（うしろ）に「〜ない」という 否定（ひてい）の 言葉を つなぐ <b>「決して（けっして）」</b> が 正しいよ！" },
 	{ grade: 4, genre: "japanese", type: "select", text: "「うわさを 聞いて 〇〇〇〇する。」 〇〇〇〇に 入る、本当（ほんとう）かどうか 疑う（うたがう） 様子を 表す 言葉（ことば）は どれかな？", choices: ["半信半疑", "一生懸命", "十人十色", "一石二鳥"], answer: "半信半疑", explanation: "半分 信じて（しんじて）、半分 疑う（うたがう） 様子を 表す <b>四字熟語（よじじゅくご）</b> だよ！" },
 	{ grade: 4, genre: "japanese", type: "which", text: "「信じる（しんじる）」の 「信」という 漢字の 左側（ひだりがわ）に ある パーツは 「にんべん」である。まるか ばつか？", choices: [true, false], answer: true, explanation: "人間に 関係（かんけい）する 漢字には <b>「にんべん（亻）」</b> が つくのが 基本（きほん）だよ！" },
 	{ grade: 4, genre: "japanese", type: "select", text: "同じ 漢字の 仲間（なかま）クイズ！ 「鉄」や「銀」の 左側に ある 部首の名前は何かな？", choices: ["かねへん", "きへん", "いとへん", "さんずい"], answer: "かねへん", explanation: "金属（きんぞく）に 関係する 漢字には <b>「かねへん（金）」</b> が つくよ！" },
