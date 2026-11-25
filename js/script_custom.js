@@ -504,7 +504,7 @@ function rubyConversion(q) {
 }
 function replaceRuby(text) {
     return text.replace(
-        /([一-龯々][一-龯々ぁ-んァ-ヶー]*)（([^）]+)）/g,
+        /([一-龯々]+)（([^）]+)）/g,
         (match, word, yomi) => {
             return `<ruby>${word}<rp>（</rp><rt>${yomi.split('：')[0]}</rt><rp>）</rp></ruby>`;
         }
