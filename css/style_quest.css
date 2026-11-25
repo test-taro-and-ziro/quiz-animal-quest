@@ -518,6 +518,7 @@ html, body {
 .btn-science { background: #a855f7; } /* 理科：むらさき */
 .btn-social { background: #b45309; }  /* 社会：茶色 */
 .btn-art { background-color: #8B5A2B; } /* 芸術：どんぐり・木のちゃいろ */
+.btn-kanji { background-color: #4A6B46; } /* 漢字：たけ・まっちゃのみどり */
 .btn-brain { background-color: #FFA726; } /* ひらめき（電球をイメージしたオレンジ・ゴールド系） */
 .btn-genre-default { background: #6b7280; } /* 上記以外：グレー */
 .btn-boss {
