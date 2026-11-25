@@ -62,7 +62,18 @@ targetArray.push(...[
 	{ grade: 1, genre: "math", type: "select", text: "ボールの ような かたちは どれかな？", choices: ["はこ", "たま", "さんかく", "しかく"], answer: "たま", explanation: "ボールの ように ころがる かたちは たまです。" },
 	{ grade: 1, genre: "math", type: "select", text: "水（みず）が たくさん はいるのは どれかな？", choices: ["コップ", "バケツ", "おさら", "スプーン"], answer: "バケツ", explanation: "バケツは コップよりも たくさんの 水（みず）を いれることが できます。" },
 	{ grade: 1, genre: "math", type: "select", text: "とけいで、みじかい はりが「3」を さしている ときの じこくは どれかな？", choices: ["3じ", "6じ", "9じ", "12じ"], answer: "3じ", explanation: "みじかい はりが 3を さしている ときは 3じです。" },
+	// なんじ なんじはん（時計）：短い針と長い針を使った時刻の読み取り
+	{ grade: 1, genre: "math", type: "select", text: "とけいは なんじかな？【clock_3】", choices: ["2じ", "3じ", "4じ", "5じ"], answer: "3じ", explanation: "ながい はりが 12、みじかい はりが 3 を さしているよ。だから <b>3じ</b> だね！" },
+	{ grade: 1, genre: "math", type: "select", text: "とけいは なんじかな？【clock_7_han】", choices: ["6じ はん", "7じ", "7じ はん", "8じ はん"], answer: "7じ はん", explanation: "ながい はりが 6 を さすと <b>はん</b> だよ。みじかい はりが 7 と 8 の あいだに あるので <b>7じ はん</b> だね！" },
+	{ grade: 1, genre: "math", type: "select", text: "とけいは なんじかな？【clock_10】", choices: ["8じ", "9じ", "10じ", "11じ"], answer: "10じ", explanation: "ながい はりが 12、みじかい はりが 10 を さしているので <b>10じ</b> だよ！" },
+	// なんばんめ：順序数の意味
+	{ grade: 1, genre: "math", type: "select", text: "りんごが ならんでいます。<br>🍎 🍎 🍎 🍎 🍎<br>ひだりから 3ばんめの りんごは どれかな？", choices: ["1ばんめ", "2ばんめ", "3ばんめ", "4ばんめ"], answer: "3ばんめ", explanation: "ひだりから かぞえると、3ばんめの りんごは <b>3ばんめ</b> だよ！" },
+	{ grade: 1, genre: "math", type: "select", text: "おかしが ならんでいます。<br>🍪 🍩 🍫 🍬 🍭<br>みぎから 2ばんめの おかしは どれかな？", choices: ["🍩", "🍫", "🍬", "🍭"], answer: "🍬", explanation: "みぎから かぞえると、1ばんめは 🍭、2ばんめは <b>🍬</b> だよ！" },
+	{ grade: 1, genre: "math", type: "select", text: "木が ならんでいます。<br>🌳 🌳 🌳 🌳 🌳 🌳<br>ひだりから 5ばんめの 木は なんばんめかな？", choices: ["3ばんめ", "4ばんめ", "5ばんめ", "6ばんめ"], answer: "5ばんめ", explanation: "ひだりから かぞえると <b>5ばんめ</b> の 木だよ！" },
+	{ grade: 1, genre: "math", type: "which", text: "パンが ならんでいます。<br>🥐 🍞 🥖 🥯<br>みぎから 1ばんめは 🥯 である。まるか ばつか？", choices: [true, false], answer: true, explanation: "みぎはしに あるのは <b>🥯</b> だよ。だから まる！" },
+	{ grade: 1, genre: "math", type: "select", text: "花が ならんでいます。<br>🌷 🌹 🌻 🌼 🌺<br>ひだりから 2ばんめの 花は どれかな？", choices: ["🌷", "🌹", "🌻", "🌺"], answer: "🌹", explanation: "ひだりから かぞえると、1ばんめは 🌷、2ばんめは <b>🌹</b> だよ！" },
 ]);
+
 // 🟦 【理科：science】
 targetArray.push(...[
 	{ grade: 1, genre: "science", type: "select", text: "はるに なると、にわや こうえんで みかける、はねが きいろや 白（しろ）の ひらひら とぶ むしは なあに？", choices: ["ちょうちょ", "かぶとむし", "せみ", "とんぼ"], answer: "ちょうちょ", explanation: "はなの <b>みつ</b> を すうために、ひらひらと お花（はな）の まわりを とぶよ！" },
