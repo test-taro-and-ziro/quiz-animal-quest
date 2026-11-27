@@ -69,9 +69,6 @@ targetArray.push(...[
     { grade: 4, genre: "kanji", type: "select", text: "漢字「芽（め）」の 画数は 何画？", choices: ["6画", "7画", "8画", "9画"], answer: "8画", explanation: "部首は「くさかんむり（艹）」だね。" },
     { grade: 4, genre: "kanji", type: "select", text: "漢字「案（あん）」の 画数は 何画？", choices: ["8画", "9画", "10画", "11画"], answer: "10画", explanation: "「安」と「木」を 組み合わせた 漢字だね。" },
     { grade: 4, genre: "kanji", type: "select", text: "漢字「希（き）」の 画数は 何画？", choices: ["6画", "7画", "8画", "9画"], answer: "7画", explanation: "「希」は 『希望（きぼう）』 などの 言葉で 使われる 漢字だね。" },
-    // 類似の言葉
-    { grade: 4, genre: "kanji", type: "select", text: "「車が<u><b>いっせいに</b></u> 走り出す。」<br>下線の言葉と意味のにている言葉は どれかな？", choices: ["同時に", "とつぜんに", "急に", "ばらばらに"], answer: "同時に", explanation: "車が いっせいに 走り出すとは、たくさんの車が <b>同じタイミング</b>で 走り始めるという 意味なんだ。<br>他にも「いっぺんに」や「そろって」などの 言葉と意味がにているね。" },	
-    { grade: 4, genre: "kanji", type: "select", text: "「下書きの線が <u><b>かすかに</b></u> のこっている。」<br>下線の言葉と意味のにている言葉は どれかな？", choices: ["うっすらと", "はっきりと", "しっかりと", "ゆっくりと"], answer: "うっすらと", explanation: "「うっすらと」は、<b>はっきり見えないくらい</b> わずか である様子を表す言葉だよ。" },
 ]);
 
 // 1年生
