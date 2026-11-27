@@ -6,3 +6,6 @@ export function loadQuestions_idiom(targetArray) {
 
 // 4年生
 targetArray.push(...[
+]);
+
+}
