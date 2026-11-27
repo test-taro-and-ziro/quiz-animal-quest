@@ -35,4 +35,12 @@ targetArray.push(...[
     { grade: 4, genre: "japanese", type: "which", text: "「匙（さじ）を投げる」とは、どうすることもできず あきらめる気持ちである。まるかばつか？", choices: [true, false], answer: true, explanation: "「さじをなげる」とは、どうやっても解決できない問題を<b>あきらめること</b>だよ！" },
 ]);
 
+// 接続詞
+targetArray.push(...[
+    { grade: 4, genre: "japanese", type: "select", text: "「雨は やんで 空が「◯◯◯」 はれた。」<br>◯◯◯ に 入（はい）る 言葉は どれかな？", choices: ["からっと", "じめじめと", "ひっそりと", "がっかりと"], answer: "からっと", explanation: "「からっと」は、空気が かわいて、気持ちよく 晴れている 様子を 表す言葉だよ。" },
+    { grade: 4, genre: "japanese", type: "select", text: "「とても 暑（あつ）くて、あせが「◯◯◯」 出た。」<br>◯◯◯ に 入る 言葉は どれかな？", choices: ["どっと", "そっと", "きっと", "ずっと"], answer: "どっと", explanation: "「どっと」は、たくさんの ものが いちどに 出たり おこったりする 様子を 表す 言葉だよ。" },
+    { grade: 4, genre: "japanese", type: "select", text: "「急に かたを たたかれて、「◯◯◯」 する。」<br>◯◯◯ に 入る 言葉は どれかな？", choices: ["びくっと", "にっこり", "のんびり", "うっかり"], answer: "びくっと", explanation: "「びくっとする」は、急な 出来事（できごと）に おどろいて、思わず 体が 動く 様子を 表す 言葉だよ。" },
+    { grade: 4, genre: "japanese", type: "select", text: "「部屋の かたづけが 終わって、「◯◯◯」 する。」<br>◯◯◯ に 入る 言葉は どれかな？", choices: ["ほっと", "どっと", "がっかり", "ひやひや"], answer: "ほっと", explanation: "「ほっとする」は、心配ごとが なくなり、安心することだよ。" },
+]);
+
 }
