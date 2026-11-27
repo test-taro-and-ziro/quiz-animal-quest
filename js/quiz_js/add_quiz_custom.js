@@ -8,14 +8,14 @@ export function loadQuestions_custom(targetArray) {
 targetArray.push(...[
 	// custom_01：整数の足し算
 	{ grade: 1, genre: "math", type: "select", text: "たしざんの もんだいだよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の こたえは どれかな？", choices: ["1", "9", true], answer: "【custom_01】", explanation: "けいさんの もんだい だよ。おちついて かんがえると こたえが わかるよね。" },
-	{ grade: 2, genre: "math", type: "select", text: "たし算（ざん）の もんだいだよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の 答え（こたえ）は どれかな？", choices: ["10", "49", true], answer: "【custom_01】", explanation: "計算（けいさん）の もんだい だよ。おちついて かんがえると 答え（こたえ）が わかるよね。" },
+	{ grade: 2, genre: "math", type: "select", text: "たし算（ざん）の もんだいだよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の 答え（こたえ）は どれかな？", choices: ["10", "49", true], answer: "【custom_01】", explanation: "計算（けいさん）の もんだい だよ。おちついて 考（かんが）えると 答（こた）えが わかるよね。" },
 	{ grade: 3, genre: "math", type: "select", text: "たし算の 問題（もんだい）だよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["50", "99", true], answer: "【custom_01】", explanation: "計算の 問題（もんだい）だよ。おちついて 考えると 答えが わかるよね。" },
 	{ grade: 4, genre: "math", type: "select", text: "たし算の問題だよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["100", "999", true], answer: "【custom_01】", explanation: "計算の 問題だよ。おちついて考えると 答えが わかるよね。" },
 	{ grade: 5, genre: "math", type: "select", text: "たし算の問題だよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["1000", "4999", true], answer: "【custom_01】", explanation: "計算の 問題だよ。おちついて考えると 答えが わかるよね。" },
 	{ grade: 6, genre: "math", type: "select", text: "たし算の問題だよ。 <br>「【値1】 ＋ 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["5000", "9999", true], answer: "【custom_01】", explanation: "計算の 問題だよ。おちついて考えると 答えが わかるよね。" },
 	// custom_01：整数の引き算
 	{ grade: 1, genre: "math", type: "select", text: "ひきざんの もんだいだよ。 <br>「【値1】 － 【値2】　＝　？？？　」の こたえは どれかな？", choices: ["1", "9", false], answer: "【custom_01】", explanation: "けいさんの もんだい だよ。おちついて かんがえると こたえが わかるよね。" },
-	{ grade: 2, genre: "math", type: "select", text: "ひき算（ざん）の もんだいだよ。 <br>「【値1】 － 【値2】　＝　？？？　」の 答え（こたえ）は どれかな？", choices: ["10", "49", false], answer: "【custom_01】", explanation: "計算（けいさん）の もんだい だよ。おちついて かんがえると 答え（こたえ）が わかるよね。" },
+	{ grade: 2, genre: "math", type: "select", text: "ひき算（ざん）の もんだいだよ。 <br>「【値1】 － 【値2】　＝　？？？　」の 答え（こたえ）は どれかな？", choices: ["10", "49", false], answer: "【custom_01】", explanation: "計算（けいさん）の もんだい だよ。おちついて 考（かんが）えると 答（こた）えが わかるよね。" },
 	{ grade: 3, genre: "math", type: "select", text: "ひき算の 問題（もんだい）だよ。 <br>「【値1】 － 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["50", "99", false], answer: "【custom_01】", explanation: "計算の 問題（もんだい）だよ。おちついて 考えると 答えが わかるよね。" },
 	{ grade: 4, genre: "math", type: "select", text: "ひき算の問題だよ。 <br>「【値1】 － 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["100", "999", false], answer: "【custom_01】", explanation: "計算の 問題だよ。おちついて考えると 答えが わかるよね。" },
 	{ grade: 5, genre: "math", type: "select", text: "ひき算の問題だよ。 <br>「【値1】 － 【値2】　＝　？？？　」の 答えは どれかな？", choices: ["1000", "4999", false], answer: "【custom_01】", explanation: "計算の 問題だよ。おちついて考えると 答えが わかるよね。" },
@@ -55,7 +55,7 @@ targetArray.push(...[
 	{ grade: 4, genre: "math", type: "select", text: "あるお店で、えんぴつを <b>1本【値1】円</b> で売っています。【値2】本買うと、全部でいくらになりますか？", choices: ["100", "200", "3", "5"], answer: "【custom_06】", explanation: "【値1】円のえんぴつを【値2】本買うので、【値1】円を【値2】回たすのと同じ考え方になります。" },
 	{ grade: 4, genre: "math", type: "select", text: "あるお店で、キャンディを<b>1袋（ふくろ）【値1】こ入り</b>で売っています。【値2】袋（ふくろ）買うと、全部で何こ になりますか？", choices: ["10", "19", "10", "19"], answer: "【custom_06】", explanation: "1つ【値1】こ 入っている袋（ふくろ）が 【値2】こ あるので、【値1】を【値2】回たすのと同じ考え方になります。" },
 	// custom_07：計算のきまり（計算のじゅんじょ）
-	{ grade: 4, genre: "math", type: "select", text: "計算のじゅんじょの問題だよ。<br><b>「【値1】 ＝ ？？？」</b> を計算すると 答えはどれかな？", choices: ["10", "20", "1", "5"], answer: "【custom_07】", explanation: "計算式が複数（ふくすう） ある式では、<b>「()のある計算」⇒「かけ算（わり算）」⇒「たし算（ひき算）」の順</b>に 計算します。まず 【値1】を計算し、そのあと 【値2】と計算するので、答えは 【答】 になります。" },
+	{ grade: 4, genre: "math", type: "select", text: "計算の順序（じゅんじょ）の問題だよ。<br><b>「【値1】 ＝ ？？？」</b> を計算すると 答えはどれかな？", choices: ["10", "20", "1", "5"], answer: "【custom_07】", explanation: "計算式が複数（ふくすう） ある式では、<b>「()のある計算」⇒「かけ算（わり算）」⇒「たし算（ひき算）」の順（じゅん）</b>に 計算します。まず 【値1】を計算し、そのあと 【値2】と計算するので、答えは 【答】 になります。" },
 	// custom_08：計算のきまり（分配法則などのきまり）
 	{ grade: 4, genre: "math", type: "select", text: "分配法則（ぶんぱいほうそく）のきまりの問題だよ。<br><b>「【値1】 × 【値2】 ＋ 【値1】 × 【値3】」</b> を 計算すると 答えはどれ？", choices: ["10", "20", "1", "5"], answer: "【custom_08】", explanation: "この式は、【値1】が2回 出てくるので、計算をくふうできます。【値1】×（【値2】＋【値3】） の形にし、かっこの中を計算すると かんたんに計算できます。<b>分配法則（ぶんぱいほうそく）は、同じ数がくり返し出てくるときに 計算をはやくするため</b>の 大切なきまりです。" },
 	
