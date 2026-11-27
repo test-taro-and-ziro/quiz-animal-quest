@@ -4,6 +4,7 @@
 // 💡 親から配列を関数として受け取る
 export function loadQuestions_kanji(targetArray) {
 
+// 4年生
 targetArray.push(...[
     // ひらがなを漢字に
     { grade: 4, genre: "kanji", type: "select", text: "「庭の花を <u><b>かんさつ</b></u> する。」<br>下線のひらがな「かんさつ」を 漢字で 書くと どれかな？", choices: ["観察", "関察", "観札", "感察"], answer: "観察", explanation: "観察（かんさつ）は、ものごとの様子をよく見て調べることです。" },
@@ -35,6 +36,7 @@ targetArray.push(...[
     { grade: 4, genre: "kanji", type: "select", text: "「下書きの線が <u><b>かすかに</b></u> のこっている。」<br>下線の言葉と意味のにている言葉は どれかな？", choices: ["うっすらと", "はっきりと", "しっかりと", "ゆっくりと"], answer: "うっすらと", explanation: "「うっすらと」は、<b>はっきり見えないくらい</b> わずか である様子を表す言葉だよ。" },
 ]);
 
+// 1年生
 targetArray.push(...[
     // ひらがな → 漢字
     { grade: 1, genre: "kanji", type: "select", text: "「こうえんで <u><b>いぬ</b></u> を みた。」<br>せんのひいてある ことばを かんじで かくと どれかな？", choices: ["犬", "鳥", "虫", "貝"], answer: "犬", explanation: "犬（いぬ）は、人（ひと）と いっしょに くらすことが おおい どうぶつだよ。" },
@@ -50,6 +52,7 @@ targetArray.push(...[
     { grade: 1, genre: "kanji", type: "select", text: "「きょうは <b>＿＿</b> が ふっている。」<br>せんのところに はいる かんじは どれかな？", choices: ["赤", "雪", "雲", "風"], answer: "雪", explanation: "雪（ゆき）は、さむい日（ひ）に 空（そら）から ふってくる 白（しろ）い こおりの つぶだよ。" },
 ]);
 
+// 都道府県
 targetArray.push(...[
     // 都道府県（○がつく）
     { grade: 4, genre: "kanji", type: "select", text: "名前に <b>「岡」</b> が つく 都道府県（とどうふけん）は 全部（ぜんぶ）で いくつ あるかな？", choices: ["3つ", "2つ", "4つ", "5つ"], answer: "3つ", explanation: "<b>静岡県（しずおかけん）・岡山県（おかやまけん）・福岡県（ふくおかけん）</b> の <b>3つ</b> あるよ。" },
